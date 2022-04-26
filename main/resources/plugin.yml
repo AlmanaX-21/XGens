@@ -1,0 +1,11 @@
+name: XGens
+version: '${project.version}'
+main: me.almana.xgens.XGens
+api-version: 1.17
+authors: [ AlmanaX21 ]
+description: Gens plugin for your needs
+depend: [SmartInvs]
+commands:
+  xgens:
+    description: All util commands for the plugin
+    permission: 'xgens.setmax'
